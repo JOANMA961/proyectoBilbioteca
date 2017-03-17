@@ -32,6 +32,17 @@ public class FormularioSocio extends JDialog {
 	
 	private ControladorSocio controladorSocio;
 
+	
+	private ControladorSocio controladorsocio;
+	
+	
+	public ControladorSocio getControladorsocio() {
+		return controladorsocio;
+	}
+
+	public void setControladorsocio(ControladorSocio controladorsocio) {
+		this.controladorsocio = controladorsocio;
+	}
 	/**
 	 * Create the dialog.
 	 */

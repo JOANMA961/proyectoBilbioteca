@@ -17,6 +17,25 @@ public class GestionSocio extends JDialog {
 
 	private final JPanel contentPanel = new JPanel();
 
+	private ControladorSocio controladorsocio;
+	
+	
+	
+	
+	public ControladorSocio getControladorsocio() {
+		return controladorsocio;
+	}
+
+
+
+
+	public void setControladorsocio(ControladorSocio controladorsocio) {
+		this.controladorsocio = controladorsocio;
+	}
+
+
+
+
 	/**
 	 * Create the dialog.
 	 */
